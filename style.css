@@ -1,0 +1,141 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* พื้นหลังรวม */
+body {
+  background: #f6f7fb;
+  color: #333;
+}
+
+/* ส่วนหัว */
+.header {
+  background: linear-gradient(to bottom, #f8b7d3, #d49cc9);
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.header h2 {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+
+/* ส่วนเนื้อหา */
+.intro {
+  text-align: center;
+  padding: 40px;
+}
+
+.intro h3 {
+  color: #d84b8d;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  color: #666;
+  font-size: 1.1em;
+}
+
+/* ส่วนท้าย */
+footer {
+  text-align: center;
+  background: #fff;
+  padding: 15px;
+  margin-top: 50px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+  border-radius: 20px 20px 0 0;
+}
+/* เมนูอาหาร */
+.menu {
+  padding: 30px;
+  text-align: center;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.food-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.food-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.food-card button {
+  background: #ff7baa;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.food-card button:hover {
+  background: #d84b8d;
+}
+
+/* ตะกร้า */
+.cart-item {
+  background: #fff;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.cart-item button {
+  margin-left: 10px;
+  background: #ffb6c1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Login */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 40px;
+}
+
+.login-container input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  background: #ff7baa;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}

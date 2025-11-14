@@ -1,0 +1,56 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Food Ordering</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>onlinefood</h1>
+    <h2>ordering</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="checkout.html">Cart 🛒</a>
+      <a href="login.html">Login 🔐</a>
+    </nav>
+  </header>
+
+  <main class="menu">
+    <h2>🍕 Our Menu</h2>
+    <div class="menu-container">
+      <!-- เมนูอาหาร -->
+      <div class="food-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1404/1404945.png" alt="Pizza">
+        <h3>Pizza</h3>
+        <p>Cheesy pizza with toppings</p>
+        <span>฿120</span>
+        <button onclick="addToCart('Pizza', 120)">Add to Cart</button>
+      </div>
+
+      <div class="food-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Burger">
+        <h3>Burger</h3>
+        <p>Beef burger with fries</p>
+        <span>฿90</span>
+        <button onclick="addToCart('Burger', 90)">Add to Cart</button>
+      </div>
+
+      <div class="food-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Sushi">
+        <h3>Sushi</h3>
+        <p>Fresh salmon rolls</p>
+        <span>฿150</span>
+        <button onclick="addToCart('Sushi', 150)">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 onlinefood ordering</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
